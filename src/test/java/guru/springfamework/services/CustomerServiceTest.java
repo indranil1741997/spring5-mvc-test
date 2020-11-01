@@ -92,7 +92,7 @@ public class CustomerServiceTest {
 
         //then
         assertEquals(customerDTO.getFirstName(), savedDta.getFirstName());
-        assertEquals("/api/v1/customer/1", savedDta.getCustomerUrl());
+        assertEquals("/api/v1/customers/1", savedDta.getCustomerUrl());
     }
 
     @Test
